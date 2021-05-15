@@ -1,0 +1,39 @@
+enclave {
+    from "sgx_tstdc.edl" import *;
+
+    trusted {
+        /* define ECALLs here. */
+        public int ecall_do_trusted(int check); // public ECALL
+        public void createRsaKeyPairEcall([out, size=384] char* public_key_raw_out, 
+                                    [out, size=388]char* public_key_out);
+        public void storeSymKeyEcall(
+                                    [in, size=encrypted_payload_len] unsigned char* encrypted_payload, size_t encrypted_payload_len);
+        public void decryptPayloadEcall(
+                                    [in, size=encrypted_payload_len] unsigned char* encrypted_payload, 
+                                    size_t encrypted_payload_len, 
+                                    [in, size=16] unsigned char* mac);
+
+        /*public void decryptPayloadGetSizeEcall(
+                                    [in, size=encrypted_payload_len] unsigned char* encrypted_payload, 
+                                    size_t encrypted_payload_len, 
+                                    [in, out] size_t *decrypted_payload_len);
+                                    */
+        int ecall_do_trusted_inside_ocall(void); // private ECALL, can only be invoked by OCALLs (see `allow` in untrusted`)
+    };
+
+    untrusted {
+        /* define OCALLs here. */
+        /* 
+         * ocall_do_trusted - invokes OCALL to display string buffer inside the enclave.
+         *  [in]: copy the string buffer to App outside.
+         *  [string]: specifies 'str' is a NULL terminated buffer.
+
+         * in: [in] means the parameter should be passed from the caller to the callee.
+         * out: [out] means the parameter should be returned from the callee to the caller.
+         * [in, out] means the parameter can be propogated in both directions.
+         * count: [count=n] means the number of elements that will be copied to or from this pointer is n. By default, n is set to 1.
+         * string: [in, string] means you are passing in a NULL-terminated string. Note string can not be combined with the out keyword.
+         */
+         void ocall_print([in, string] const char *str) allow (ecall_do_trusted_inside_ocall);
+    };
+};

@@ -1,0 +1,137 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Enclave2", "Enclave2\Enclave2.vcxproj", "{DD541470-E8B8-4E4A-B50A-BB76DF45BCBA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "App", "App\App.vcxproj", "{C198E4D9-1292-4730-A24E-5AA31C1AFD44}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bridge", "Bridge\Bridge.vcxproj", "{2CFD429D-FF7F-4F49-A8CB-07C00214F316}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3C74DF09-3730-4547-A16B-A0D64C5FA729}"
+	ProjectSection(SolutionItems) = preProject
+		Docs\Readme.md = Docs\Readme.md
+		Docs\UncleAbe.png = Docs\UncleAbe.png
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		CVE-2020-0551-CF-Prerelease|x64 = CVE-2020-0551-CF-Prerelease|x64
+		CVE-2020-0551-CF-Prerelease|x86 = CVE-2020-0551-CF-Prerelease|x86
+		CVE-2020-0551-CF-Release|x64 = CVE-2020-0551-CF-Release|x64
+		CVE-2020-0551-CF-Release|x86 = CVE-2020-0551-CF-Release|x86
+		CVE-2020-0551-Load-Prerelease|x64 = CVE-2020-0551-Load-Prerelease|x64
+		CVE-2020-0551-Load-Prerelease|x86 = CVE-2020-0551-Load-Prerelease|x86
+		CVE-2020-0551-Load-Release|x64 = CVE-2020-0551-Load-Release|x64
+		CVE-2020-0551-Load-Release|x86 = CVE-2020-0551-Load-Release|x86
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Prerelease|x64 = Prerelease|x64
+		Prerelease|x86 = Prerelease|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+		Simulation|x64 = Simulation|x64
+		Simulation|x86 = Simulation|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD541470-E8B8-4E4A-B50A-BB76DF45BCBA}.CVE-2020-0551-CF-Prerelease|x64.ActiveCfg = CVE-2020-0551-CF-Prerelease|x64
+		{DD541470-E8B8-4E4A-B50A-BB76DF45BCBA}.CVE-2020-0551-CF-Prerelease|x64.Build.0 = CVE-2020-0551-CF-Prerelease|x64
+		{DD541470-E8B8-4E4A-B50A-BB76DF45BCBA}.CVE-2020-0551-CF-Prerelease|x86.ActiveCfg = CVE-2020-0551-CF-Prerelease|x64
+		{DD541470-E8B8-4E4A-B50A-BB76DF45BCBA}.CVE-2020-0551-CF-Release|x64.ActiveCfg = CVE-2020-0551-CF-Release|x64
+		{DD541470-E8B8-4E4A-B50A-BB76DF45BCBA}.CVE-2020-0551-CF-Release|x64.Build.0 = CVE-2020-0551-CF-Release|x64
+		{DD541470-E8B8-4E4A-B50A-BB76DF45BCBA}.CVE-2020-0551-CF-Release|x86.ActiveCfg = CVE-2020-0551-CF-Release|x64
+		{DD541470-E8B8-4E4A-B50A-BB76DF45BCBA}.CVE-2020-0551-Load-Prerelease|x64.ActiveCfg = CVE-2020-0551-Load-Prerelease|x64
+		{DD541470-E8B8-4E4A-B50A-BB76DF45BCBA}.CVE-2020-0551-Load-Prerelease|x64.Build.0 = CVE-2020-0551-Load-Prerelease|x64
+		{DD541470-E8B8-4E4A-B50A-BB76DF45BCBA}.CVE-2020-0551-Load-Prerelease|x86.ActiveCfg = CVE-2020-0551-Load-Prerelease|x64
+		{DD541470-E8B8-4E4A-B50A-BB76DF45BCBA}.CVE-2020-0551-Load-Release|x64.ActiveCfg = CVE-2020-0551-Load-Release|x64
+		{DD541470-E8B8-4E4A-B50A-BB76DF45BCBA}.CVE-2020-0551-Load-Release|x64.Build.0 = CVE-2020-0551-Load-Release|x64
+		{DD541470-E8B8-4E4A-B50A-BB76DF45BCBA}.CVE-2020-0551-Load-Release|x86.ActiveCfg = CVE-2020-0551-Load-Release|x64
+		{DD541470-E8B8-4E4A-B50A-BB76DF45BCBA}.Debug|x64.ActiveCfg = Debug|x64
+		{DD541470-E8B8-4E4A-B50A-BB76DF45BCBA}.Debug|x64.Build.0 = Debug|x64
+		{DD541470-E8B8-4E4A-B50A-BB76DF45BCBA}.Debug|x86.ActiveCfg = Debug|Win32
+		{DD541470-E8B8-4E4A-B50A-BB76DF45BCBA}.Debug|x86.Build.0 = Debug|Win32
+		{DD541470-E8B8-4E4A-B50A-BB76DF45BCBA}.Prerelease|x64.ActiveCfg = Prerelease|x64
+		{DD541470-E8B8-4E4A-B50A-BB76DF45BCBA}.Prerelease|x64.Build.0 = Prerelease|x64
+		{DD541470-E8B8-4E4A-B50A-BB76DF45BCBA}.Prerelease|x86.ActiveCfg = Prerelease|Win32
+		{DD541470-E8B8-4E4A-B50A-BB76DF45BCBA}.Prerelease|x86.Build.0 = Prerelease|Win32
+		{DD541470-E8B8-4E4A-B50A-BB76DF45BCBA}.Release|x64.ActiveCfg = Release|x64
+		{DD541470-E8B8-4E4A-B50A-BB76DF45BCBA}.Release|x64.Build.0 = Release|x64
+		{DD541470-E8B8-4E4A-B50A-BB76DF45BCBA}.Release|x86.ActiveCfg = Release|Win32
+		{DD541470-E8B8-4E4A-B50A-BB76DF45BCBA}.Release|x86.Build.0 = Release|Win32
+		{DD541470-E8B8-4E4A-B50A-BB76DF45BCBA}.Simulation|x64.ActiveCfg = Simulation|x64
+		{DD541470-E8B8-4E4A-B50A-BB76DF45BCBA}.Simulation|x64.Build.0 = Simulation|x64
+		{DD541470-E8B8-4E4A-B50A-BB76DF45BCBA}.Simulation|x86.ActiveCfg = Simulation|Win32
+		{DD541470-E8B8-4E4A-B50A-BB76DF45BCBA}.Simulation|x86.Build.0 = Simulation|Win32
+		{C198E4D9-1292-4730-A24E-5AA31C1AFD44}.CVE-2020-0551-CF-Prerelease|x64.ActiveCfg = Debug|x64
+		{C198E4D9-1292-4730-A24E-5AA31C1AFD44}.CVE-2020-0551-CF-Prerelease|x64.Build.0 = Debug|x64
+		{C198E4D9-1292-4730-A24E-5AA31C1AFD44}.CVE-2020-0551-CF-Prerelease|x86.ActiveCfg = Debug|Win32
+		{C198E4D9-1292-4730-A24E-5AA31C1AFD44}.CVE-2020-0551-CF-Prerelease|x86.Build.0 = Debug|Win32
+		{C198E4D9-1292-4730-A24E-5AA31C1AFD44}.CVE-2020-0551-CF-Release|x64.ActiveCfg = Release|x64
+		{C198E4D9-1292-4730-A24E-5AA31C1AFD44}.CVE-2020-0551-CF-Release|x64.Build.0 = Release|x64
+		{C198E4D9-1292-4730-A24E-5AA31C1AFD44}.CVE-2020-0551-CF-Release|x86.ActiveCfg = Release|Win32
+		{C198E4D9-1292-4730-A24E-5AA31C1AFD44}.CVE-2020-0551-CF-Release|x86.Build.0 = Release|Win32
+		{C198E4D9-1292-4730-A24E-5AA31C1AFD44}.CVE-2020-0551-Load-Prerelease|x64.ActiveCfg = Debug|x64
+		{C198E4D9-1292-4730-A24E-5AA31C1AFD44}.CVE-2020-0551-Load-Prerelease|x64.Build.0 = Debug|x64
+		{C198E4D9-1292-4730-A24E-5AA31C1AFD44}.CVE-2020-0551-Load-Prerelease|x86.ActiveCfg = Debug|Win32
+		{C198E4D9-1292-4730-A24E-5AA31C1AFD44}.CVE-2020-0551-Load-Prerelease|x86.Build.0 = Debug|Win32
+		{C198E4D9-1292-4730-A24E-5AA31C1AFD44}.CVE-2020-0551-Load-Release|x64.ActiveCfg = Release|x64
+		{C198E4D9-1292-4730-A24E-5AA31C1AFD44}.CVE-2020-0551-Load-Release|x64.Build.0 = Release|x64
+		{C198E4D9-1292-4730-A24E-5AA31C1AFD44}.CVE-2020-0551-Load-Release|x86.ActiveCfg = Release|Win32
+		{C198E4D9-1292-4730-A24E-5AA31C1AFD44}.CVE-2020-0551-Load-Release|x86.Build.0 = Release|Win32
+		{C198E4D9-1292-4730-A24E-5AA31C1AFD44}.Debug|x64.ActiveCfg = Debug|x64
+		{C198E4D9-1292-4730-A24E-5AA31C1AFD44}.Debug|x64.Build.0 = Debug|x64
+		{C198E4D9-1292-4730-A24E-5AA31C1AFD44}.Debug|x86.ActiveCfg = Debug|Win32
+		{C198E4D9-1292-4730-A24E-5AA31C1AFD44}.Debug|x86.Build.0 = Debug|Win32
+		{C198E4D9-1292-4730-A24E-5AA31C1AFD44}.Prerelease|x64.ActiveCfg = Prerelease|x64
+		{C198E4D9-1292-4730-A24E-5AA31C1AFD44}.Prerelease|x64.Build.0 = Prerelease|x64
+		{C198E4D9-1292-4730-A24E-5AA31C1AFD44}.Prerelease|x86.ActiveCfg = Prerelease|Win32
+		{C198E4D9-1292-4730-A24E-5AA31C1AFD44}.Prerelease|x86.Build.0 = Prerelease|Win32
+		{C198E4D9-1292-4730-A24E-5AA31C1AFD44}.Release|x64.ActiveCfg = Release|x64
+		{C198E4D9-1292-4730-A24E-5AA31C1AFD44}.Release|x64.Build.0 = Release|x64
+		{C198E4D9-1292-4730-A24E-5AA31C1AFD44}.Release|x86.ActiveCfg = Release|Win32
+		{C198E4D9-1292-4730-A24E-5AA31C1AFD44}.Release|x86.Build.0 = Release|Win32
+		{C198E4D9-1292-4730-A24E-5AA31C1AFD44}.Simulation|x64.ActiveCfg = Simulation|x64
+		{C198E4D9-1292-4730-A24E-5AA31C1AFD44}.Simulation|x64.Build.0 = Simulation|x64
+		{C198E4D9-1292-4730-A24E-5AA31C1AFD44}.Simulation|x86.ActiveCfg = Simulation|Win32
+		{C198E4D9-1292-4730-A24E-5AA31C1AFD44}.Simulation|x86.Build.0 = Simulation|Win32
+		{2CFD429D-FF7F-4F49-A8CB-07C00214F316}.CVE-2020-0551-CF-Prerelease|x64.ActiveCfg = Debug|x64
+		{2CFD429D-FF7F-4F49-A8CB-07C00214F316}.CVE-2020-0551-CF-Prerelease|x64.Build.0 = Debug|x64
+		{2CFD429D-FF7F-4F49-A8CB-07C00214F316}.CVE-2020-0551-CF-Prerelease|x86.ActiveCfg = Debug|Win32
+		{2CFD429D-FF7F-4F49-A8CB-07C00214F316}.CVE-2020-0551-CF-Prerelease|x86.Build.0 = Debug|Win32
+		{2CFD429D-FF7F-4F49-A8CB-07C00214F316}.CVE-2020-0551-CF-Release|x64.ActiveCfg = Release|x64
+		{2CFD429D-FF7F-4F49-A8CB-07C00214F316}.CVE-2020-0551-CF-Release|x64.Build.0 = Release|x64
+		{2CFD429D-FF7F-4F49-A8CB-07C00214F316}.CVE-2020-0551-CF-Release|x86.ActiveCfg = Release|Win32
+		{2CFD429D-FF7F-4F49-A8CB-07C00214F316}.CVE-2020-0551-CF-Release|x86.Build.0 = Release|Win32
+		{2CFD429D-FF7F-4F49-A8CB-07C00214F316}.CVE-2020-0551-Load-Prerelease|x64.ActiveCfg = Debug|x64
+		{2CFD429D-FF7F-4F49-A8CB-07C00214F316}.CVE-2020-0551-Load-Prerelease|x64.Build.0 = Debug|x64
+		{2CFD429D-FF7F-4F49-A8CB-07C00214F316}.CVE-2020-0551-Load-Prerelease|x86.ActiveCfg = Debug|Win32
+		{2CFD429D-FF7F-4F49-A8CB-07C00214F316}.CVE-2020-0551-Load-Prerelease|x86.Build.0 = Debug|Win32
+		{2CFD429D-FF7F-4F49-A8CB-07C00214F316}.CVE-2020-0551-Load-Release|x64.ActiveCfg = Release|x64
+		{2CFD429D-FF7F-4F49-A8CB-07C00214F316}.CVE-2020-0551-Load-Release|x64.Build.0 = Release|x64
+		{2CFD429D-FF7F-4F49-A8CB-07C00214F316}.CVE-2020-0551-Load-Release|x86.ActiveCfg = Release|Win32
+		{2CFD429D-FF7F-4F49-A8CB-07C00214F316}.CVE-2020-0551-Load-Release|x86.Build.0 = Release|Win32
+		{2CFD429D-FF7F-4F49-A8CB-07C00214F316}.Debug|x64.ActiveCfg = Debug|x64
+		{2CFD429D-FF7F-4F49-A8CB-07C00214F316}.Debug|x64.Build.0 = Debug|x64
+		{2CFD429D-FF7F-4F49-A8CB-07C00214F316}.Debug|x86.ActiveCfg = Debug|Win32
+		{2CFD429D-FF7F-4F49-A8CB-07C00214F316}.Debug|x86.Build.0 = Debug|Win32
+		{2CFD429D-FF7F-4F49-A8CB-07C00214F316}.Prerelease|x64.ActiveCfg = Prerelease|x64
+		{2CFD429D-FF7F-4F49-A8CB-07C00214F316}.Prerelease|x64.Build.0 = Prerelease|x64
+		{2CFD429D-FF7F-4F49-A8CB-07C00214F316}.Prerelease|x86.ActiveCfg = Prerelease|Win32
+		{2CFD429D-FF7F-4F49-A8CB-07C00214F316}.Prerelease|x86.Build.0 = Prerelease|Win32
+		{2CFD429D-FF7F-4F49-A8CB-07C00214F316}.Release|x64.ActiveCfg = Release|x64
+		{2CFD429D-FF7F-4F49-A8CB-07C00214F316}.Release|x64.Build.0 = Release|x64
+		{2CFD429D-FF7F-4F49-A8CB-07C00214F316}.Release|x86.ActiveCfg = Release|Win32
+		{2CFD429D-FF7F-4F49-A8CB-07C00214F316}.Release|x86.Build.0 = Release|Win32
+		{2CFD429D-FF7F-4F49-A8CB-07C00214F316}.Simulation|x64.ActiveCfg = Simulation|x64
+		{2CFD429D-FF7F-4F49-A8CB-07C00214F316}.Simulation|x64.Build.0 = Simulation|x64
+		{2CFD429D-FF7F-4F49-A8CB-07C00214F316}.Simulation|x86.ActiveCfg = Simulation|Win32
+		{2CFD429D-FF7F-4F49-A8CB-07C00214F316}.Simulation|x86.Build.0 = Simulation|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {10654EEB-91D4-43E1-91B7-2454906FCF8E}
+	EndGlobalSection
+EndGlobal
